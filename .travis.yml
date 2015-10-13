@@ -11,7 +11,7 @@ before_install:
   - sudo apt-get install -y libgmp3-dev
   - git config --global user.name "TravisCI"
   - cpanm --quiet --notest --skip-satisfied Dist::Zilla
-  - "dzil authordeps --missing | xargs cpanm --quiet --notest
+  - "dzil authordeps --missing | xargs cpanm --quiet --notest"
 
 # Automated installation tasks of this project.
 install:
