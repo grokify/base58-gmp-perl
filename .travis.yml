@@ -1,4 +1,5 @@
-language: "perl"
+sudo: true
+language: perl
 perl:
   - "5.18"
   - "5.16"
@@ -6,7 +7,11 @@ perl:
   - "5.12"
 
 before_install:
-    - sudo apt-get install libgmp3-dev
+  - sudo apt-get update -qq
+  - sudo apt-get install libgmp3-dev
+  - git config --global user.name "TravisCI"
+  - "cpanm --quiet --notest Dist::Zilla"
+  - "dzil authordeps --missing | xargs cpanm --quiet --notest"
 
 install:
     - cpanm -v --installdeps --notest --mirror http://cpan.mirrors.travis-ci.org .
