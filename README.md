@@ -104,19 +104,14 @@ by default.
 
 ## Changes
 
-=item 1.00 April 30, 2013
+* 1.00 April 30, 2013
+  * Add Bitcoin alphabet support.
+  * Add zero-padding for md5_base58. This is an incompatible change from version 0.09.
 
-Add Bitcoin alphabet support.
+### Incompatible Changes
 
-Add zero-padding for md5_base58. This is an incompatible change from version
-0.09.
-
-=head1 INCOMPATIBLE CHANGES
-
-=item 1.00 April 30, 2013
-
-md5_base58 is now zero-padded to provide a fixed-length Base58 string. Prior
-versions were not padding with leading zero values.
+* 1.00 April 30, 2013
+  * md5_base58 is now zero-padded to provide a fixed-length Base58 string. Prior versions were not padding with leading zero values.
 
 ## See Also
 
