@@ -1,6 +1,6 @@
 [![CPAN version](https://badge.fury.io/pl/Encode-Base58-GMP.svg)](https://badge.fury.io/pl/Encode-Base58-GMP)
 [![Build Status](https://travis-ci.org/grokify/base58-gmp-perl.svg?branch=master)](https://travis-ci.org/grokify/base58-gmp-perl)
-pu[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/grokify/encode-base58-gmp/master/LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/grokify/encode-base58-gmp/master/LICENSE)
 
 Encode::Base58::GMP
 ===================
