@@ -1,5 +1,5 @@
 [![CPAN version](https://badge.fury.io/pl/Encode-Base58-GMP.svg)](https://badge.fury.io/pl/Encode-Base58-GMP)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/grokify/ringcentral-sdk-ruby/master/LICENSE.txt)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/grokify/encode-base58-gmp/master/LICENSE
 
 Encode::Base58::GMP
 ===================
