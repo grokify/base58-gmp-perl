@@ -1,10 +1,10 @@
+Encode::Base58::GMP
+===================
+
 [![CPAN version][version-svg]][version-link]
 [![Build Status][build-status-svg]][build-status-link]
 [![Docs][docs-metacpan-svg]][docs-metacpan-link]
 [![License][license-svg]][license-link]
-
-Encode::Base58::GMP
-===================
 
 High speed Base58 encoding using GMP with BigInt and MD5 support
 
