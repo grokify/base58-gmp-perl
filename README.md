@@ -1,6 +1,7 @@
-[![CPAN version](https://badge.fury.io/pl/Encode-Base58-GMP.svg)](https://badge.fury.io/pl/Encode-Base58-GMP)
-[![Build Status](https://travis-ci.org/grokify/base58-gmp-perl.svg?branch=master)](https://travis-ci.org/grokify/base58-gmp-perl)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/grokify/encode-base58-gmp/master/LICENSE)
+[![CPAN version][version-svg]][version-link]
+[![Build Status][build-status-svg]][build-status-link]
+[![Docs][docs-metacpan-svg]][docs-metacpan-link]
+[![License][license-svg]][license-link]
 
 Encode::Base58::GMP
 ===================
@@ -131,4 +132,13 @@ Please report these on [Github](https://github.com/grokify/base58-gmp-perl)
 
 Encode::Base58::GMP is available under an MIT-style license. See [LICENSE](LICENSE) for details.
 
-Encode::Base58::GMP &copy; 2011-2015 by John Wang
+Encode::Base58::GMP &copy; 2011-2016 by John Wang
+
+ [version-svg]: https://badge.fury.io/pl/Encode-Base58-GMP.svg
+ [version-link]: https://badge.fury.io/pl/Encode-Base58-GMP
+ [build-status-svg]: https://travis-ci.org/grokify/base58-gmp-perl.svg?branch=master
+ [build-status-link]: https://travis-ci.org/grokify/base58-gmp-perl
+ [docs-metacpan-svg]: https://img.shields.io/badge/docs-metacpan-blue.svg
+ [docs-metacpan-link]: https://metacpan.org/pod/Encode::Base58::GMP
+ [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
+ [license-link]: https://raw.githubusercontent.com/grokify/encode-base58-gmp/master/LICENSE
